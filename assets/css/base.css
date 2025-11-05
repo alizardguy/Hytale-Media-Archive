@@ -20,9 +20,9 @@ body {
 .gallery {
     text-align: center;
     padding-bottom: 45px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding: 50px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(90px, 250px));
     background-color: #121b2c;
@@ -69,11 +69,13 @@ body {
     }
 
     .gallery {
-        padding-bottom: 10px;
-        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-top: 20px;
         padding-left: 0px;
         padding-right: 0px;
         grid-template-columns: repeat(auto-fit, minmax(20px, 21vw));
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .gallery-square {
