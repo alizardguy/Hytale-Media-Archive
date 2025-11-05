@@ -18,22 +18,29 @@ body {
 }
 
 .gallery {
+    text-align: center;
     padding-bottom: 45px;
     padding-left: 5px;
     padding-right: 5px;
+    padding: 50px;
     display: grid;
-    grid-template-columns: repeat(3, 230px);
+    grid-template-columns: repeat(auto-fit, minmax(90px, 250px));
     background-color: #121b2c;
     border-radius: 10px;
-    overflow: scroll;
+    overflow: hidden;
+    place-items: center;
+    justify-items: center;
+    justify-content: center;
 }
 
 .gallery-item {
     padding: 20px 5px;
     font-weight: bold;
+    max-width: 205px;
 }
 
 .gallery-square {
+    padding-bottom: 20px;
     aspect-ratio: 1 / 1;
     height: 20vw;
     max-height: 200px;
@@ -57,9 +64,17 @@ body {
         display: none;
     }
 
+    .gallery-item {
+        padding: 5px;
+    }
+
     .gallery {
         padding-bottom: 0px;
         padding-top: 0px;
-        grid-template-columns: repeat(3, 22vw);
+        grid-template-columns: repeat(auto-fit, minmax(20px, 21vw));
+    }
+
+    .gallery-square {
+        padding-bottom: 0px;
     }
 }
