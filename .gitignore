@@ -1,0 +1,12 @@
+# Node modules
+/node_modules
+
+# Eleventy output directory (e.g., _site)
+/_site
+
+# Editor-specific files
+.vscode/
+.DS_Store
+
+# Log files
+*.log
