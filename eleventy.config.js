@@ -36,4 +36,5 @@ export default function (eleventyConfig)
     });
 
     eleventyConfig.addPassthroughCopy("src/assets/images");
+    eleventyConfig.addPassthroughCopy("./CNAME");
 }
