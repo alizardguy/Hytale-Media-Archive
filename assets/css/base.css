@@ -2,11 +2,41 @@
     --primary-color: #5180e6;
     --primary-hover-color: #5180e6; 
     --text-color: #a6adbb; 
-    --bg-color: #1b1b1e;
+    --bg-color: #162137;
 }
 
 body {
     margin: 0;
     background-color: var(--bg-color);
     color: var(--text-color);
+}
+
+
+/* media grid */
+.gallery-main {
+    padding: 10px;
+}
+
+.gallery {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+}
+
+.gallery-square {
+    aspect-ratio: 1 / 1;
+    height: 200px;
+}
+
+.gallery-square img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.gallery-square a {
+    color: white;
+    text-decoration: none;
 }
