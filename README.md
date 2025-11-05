@@ -1,1 +1,2 @@
-There will be a README.md here one day
+# Running locally
+- ``run: npx @11ty/eleventy --serve``
