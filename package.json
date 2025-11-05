@@ -13,7 +13,8 @@
     "url": "git+https://github.com/alizardguy/Hytale-Media-Archive.git"
   },
   "keywords": [
-    "Hytale"
+    "Hytale",
+    "Archive"
   ],
   "author": "alizardguy",
   "license": "ISC",
