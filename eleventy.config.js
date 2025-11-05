@@ -1,3 +1,5 @@
+import Image from "@11ty/eleventy-img";
+
 export const config = {
     dir: {
         // input
@@ -14,4 +16,24 @@ export const config = {
 export default function (eleventyConfig)
 {
     eleventyConfig.addPassthroughCopy("src/assets");
+
+    eleventyConfig.addAsyncShortcode("galleryImage", async (src, alt) => {
+        let metadata = await Image(src, {
+            widths: [300, null],
+            formats: ["webp"],
+            outputDir: "./_site/img/",
+            urlPath: "/img/"
+        });
+
+        let imageAttributes = {
+            alt,
+            sizes: "100vw",
+            loading: "lazy",
+            decoding: "async"
+        };
+
+        return Image.generateHTML(metadata, imageAttributes);
+    });
+
+    eleventyConfig.addPassthroughCopy("src/assets/images");
 }

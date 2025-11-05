@@ -1,0 +1,14 @@
+[
+    {
+        "image": "./src/assets/images/VFX_Demo_Screenshot.png",
+        "alt": "VFX editor ui",
+        "page": "/assets/images/VFX_Demo_Screenshot.png",
+        "caption": "VFX editor editing a particle"
+    },
+    {
+        "image": "./src/assets/images/Hytale_Asset_Editor_Trok_Tophat.webp",
+        "alt": "Hytale asset editor displaying a Trok in a tophat",
+        "page": "/assets/images/Hytale_Asset_Editor_Trok_Tophat.webp",
+        "caption": "Model editor showing a Trok Guard in a tophat"
+    }
+]
