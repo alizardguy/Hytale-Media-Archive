@@ -1,0 +1,14 @@
+[
+    {
+        "image": "./src/assets/images/AskHytale-4-8-2025.jpg",
+        "alt": "AskHytale",
+        "page": "/askhytale",
+        "caption": "AskHytale"
+    },
+    {
+        "image": "./src/assets/images/Hytale_Asset_Editor_Trok_Tophat.webp",
+        "alt": "Modding",
+        "page": "/gallery/modding/",
+        "caption": "Modding"
+    }
+]

@@ -26,32 +26,11 @@
         "caption": "Live scripting",
         "archive-source": "https://www.youtube.com/watch?v=nYVwFv5xtQ4"
     },
-        {
-        "image": "./src/assets/images/Live_scripting_Trailer.png",
-        "alt": "Live scripting",
-        "page": "/assets/images/Live_scripting_Trailer.png",
-        "caption": "Live scripting",
-        "archive-source": "https://www.youtube.com/watch?v=nYVwFv5xtQ4"
-    },
-        {
-        "image": "./src/assets/images/Live_scripting_Trailer.png",
-        "alt": "Live scripting",
-        "page": "/assets/images/Live_scripting_Trailer.png",
-        "caption": "Live scripting",
-        "archive-source": "https://www.youtube.com/watch?v=nYVwFv5xtQ4"
-    },
     {
-        "image": "./src/assets/images/Live_scripting_Trailer.png",
-        "alt": "Live scripting",
-        "page": "/assets/images/Live_scripting_Trailer.png",
-        "caption": "Live scripting",
-        "archive-source": "https://www.youtube.com/watch?v=nYVwFv5xtQ4"
-    },
-    {
-        "image": "./src/assets/images/Live_scripting_Trailer.png",
-        "alt": "Live scripting",
-        "page": "/assets/images/Live_scripting_Trailer.png",
-        "caption": "Live scripting",
+        "image": "./src/assets/images/Skybox_Customization_UI_Example.jpg",
+        "alt": "Skybox customization ui",
+        "page": "/assets/images/Skybox_Customization_UI_Example.jpg",
+        "caption": "Skybox customization",
         "archive-source": "https://www.youtube.com/watch?v=nYVwFv5xtQ4"
     }
 ]
