@@ -10,5 +10,13 @@
         "alt": "Hytale asset editor displaying a Trok in a tophat",
         "page": "/assets/images/Hytale_Asset_Editor_Trok_Tophat.webp",
         "caption": "Model editor showing a Trok Guard in a tophat"
+    },
+    {
+        "image": "./src/assets/images/Trork_alert_script.png",
+        "alt": "Trok alert script",
+        "page": "/assets/images/Trork_alert_script.png",
+        "caption": "Trok alert script",
+        "source": "https://hytale.com/news/2019/4/an-introduction-to-building-npc-behaviors",
+        "archive-source": "https://web.archive.org/web/20250324122646/https://hytale.com/news/2019/4/an-introduction-to-building-npc-behaviors"
     }
 ]
