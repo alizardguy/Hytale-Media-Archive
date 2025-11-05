@@ -66,6 +66,7 @@ body {
 
     .gallery-item {
         padding: 5px;
+        max-width: 400px;
     }
 
     .gallery {
@@ -80,5 +81,6 @@ body {
 
     .gallery-square {
         padding-bottom: 0px;
+        max-height: 400px;
     }
 }
