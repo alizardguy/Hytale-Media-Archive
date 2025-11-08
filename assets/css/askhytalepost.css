@@ -7,7 +7,7 @@ main {
 
     background-image: url(/assets/images/backgrounds/HytaleTheCapitalArt-1024x576.webp);
     background-repeat: no-repeat;
-    background-size: 200dvh;
+    background-size: cover;
     background-blend-mode: multiply;
     background-color: #0a1129;
 }
