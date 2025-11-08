@@ -1,0 +1,24 @@
+---
+title: Gallery
+description: "Hytale Media Gallery"
+layout: base.njk
+permalink: /gallery/modding/
+---
+
+<main class="gallery-main">
+<h1>Modding Media Gallery</h1>
+<div class="gallery">
+    {% for item in modgallery %}
+        <div class="gallery-item">
+        <div class="gallery-square">
+            <a href={{item.page}}>
+            {% galleryImage item.image, item.alt, "(min-width: 600px) 300px, 100vw" %}
+            {% if item.caption %}
+                <p class="gallery-item-caption">{{ item.caption }}</p>
+            {% endif %}
+            </a>
+        </div>
+        </div>
+    {% endfor %}
+</div>
+</main>
