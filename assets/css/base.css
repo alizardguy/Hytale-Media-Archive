@@ -11,12 +11,28 @@ body {
     color: var(--text-color);
 }
 
-
-/* media grid */
-.gallery-main {
-    margin: 10px;
+/* generic */
+.widget-area {
+    background-color: #121b2c;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
+@media screen and (max-width: 824px) {
+
+.widget-area {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+}
+
+/* media grid */
 .gallery {
     text-align: center;
     padding-bottom: 45px;
@@ -75,8 +91,8 @@ body {
         padding-left: 0px;
         padding-right: 0px;
         grid-template-columns: repeat(auto-fit, minmax(20px, 21vw));
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .gallery-square {
