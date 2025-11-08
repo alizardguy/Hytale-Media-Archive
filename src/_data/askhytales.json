@@ -7,38 +7,45 @@
         "caption": "2024/01/30"
     },
     {
-    "name": "2024-02-01",
-    "image": "./src/assets/images/AskHytale-2024-02-01.jpg",
-    "alt": "Ask Hytale February 1rst, 2024",
-    "page": "/askhytale/2024-02-01",
-    "caption": "2024/02/01"
+        "name": "2024-02-01",
+        "image": "./src/assets/images/AskHytale-2024-02-01.jpg",
+        "alt": "Ask Hytale February 1rst, 2024",
+        "page": "/askhytale/2024-02-01",
+        "caption": "2024/02/01"
     },
     {
-    "name": "2024-02-29",
-    "image": "./src/assets/images/AskHytale-2024-02-29.jpg",
-    "alt": "Ask Hytale February 29th, 2024",
-    "page": "/askhytale/2024-02-29",
-    "caption": "2024-02-29"
+        "name": "2024-02-29",
+        "image": "./src/assets/images/AskHytale-2024-02-29.jpg",
+        "alt": "Ask Hytale February 29th, 2024",
+        "page": "/askhytale/2024-02-29",
+        "caption": "2024-02-29"
     },
     {
-    "name": "2024-03-01",
-    "image": "./src/assets/images/AskHytale-2024-03-01.jpg",
-    "alt": "Ask Hytale March 1rst, 2024",
-    "page": "/askhytale/2024-03-01",
-    "caption": "2024-03-01"
+        "name": "2024-03-01",
+        "image": "./src/assets/images/AskHytale-2024-03-01.jpg",
+        "alt": "Ask Hytale March 1rst, 2024",
+        "page": "/askhytale/2024-03-01",
+        "caption": "2024-03-01"
     },
     {
-    "name": "2024-03-12",
-    "image": "./src/assets/images/AskHytale-2024-03-12.jpg",
-    "alt": "Ask Hytale March 12th, 2024",
-    "page": "/askhytale/2024-03-12",
-    "caption": "2024-03-12"
+        "name": "2024-03-12",
+        "image": "./src/assets/images/AskHytale-2024-03-12.jpg",
+        "alt": "Ask Hytale March 12th, 2024",
+        "page": "/askhytale/2024-03-12",
+        "caption": "2024-03-12"
     },
-        {
-    "name": "2024-04-05",
-    "image": "./src/assets/images/AskHytale-2024-04-05.jpg",
-    "alt": "Ask Hytale April 5th, 2024",
-    "page": "/askhytale/2024-04-05",
-    "caption": "2024-04-05"
+    {
+        "name": "2024-04-05",
+        "image": "./src/assets/images/AskHytale-2024-04-05.jpg",
+        "alt": "Ask Hytale April 5th, 2024",
+        "page": "/askhytale/2024-04-05",
+        "caption": "2024-04-05"
+    },
+    {
+        "name": "2024-04-11",
+        "image": "./src/assets/images/AskHytale-2024-04-11.jpg",
+        "alt": "Ask Hytale April 11, 2024",
+        "page": "/askhytale/2024-04-11",
+        "caption": "2024-04-11"
     }
 ]
