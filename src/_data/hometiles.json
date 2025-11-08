@@ -6,9 +6,9 @@
         "caption": "AskHytale"
     },
     {
-        "image": "./src/assets/images/Hytale_Asset_Editor_Trok_Tophat.webp",
-        "alt": "Modding",
-        "page": "/topic/modding/",
-        "caption": "Modding"
+        "image": "./src/assets/images/Logo_of_Twitter.jpg",
+        "alt": "Twitter logo",
+        "page": "/topic/tweets/",
+        "caption": "Tweets"
     }
 ]
