@@ -1,4 +1,13 @@
 footer {
     background-color: #121b2c;
     width: 100%;
+    margin: 5px 10px;
+    display: flex;
+}
+
+footer a{
+    margin-left: 5px;
+    color: gray;
+    text-decoration: none;
+    font-style: italic;
 }

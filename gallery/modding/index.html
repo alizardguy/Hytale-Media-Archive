@@ -27,72 +27,34 @@
 </head>
 <body>
     <div class="page-container">
-    <nav>
+    <nav class="topnav" id="myTopnav">
+  <a href="/" class="active">Home</a>
+  <a href="/gallery">Media</a>
+  <a href="javascript:void(0);" class="icon" onclick="navMenu()">
+    <i class="fa fa-bars">☰</i>
+  </a>
 </nav>
+
+<script>
+function navMenu() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
     
 <main class="gallery-main">
 <h1>Modding Media Gallery</h1>
 <div class="gallery">
     
-        <div class="gallery-item">
-        <div class="gallery-square">
-            <a href=/assets/images/VFX_Demo_Screenshot.png>
-            <img src="/img/Bo6tx_RXcZ-300.webp" alt="VFX editor ui" loading="lazy" decoding="async" width="1195" height="675" srcset="/img/Bo6tx_RXcZ-300.webp 300w, /img/Bo6tx_RXcZ-1195.webp 1195w" sizes="100vw">
-            
-                <p class="gallery-item-caption">VFX editor editing a particle</p>
-            
-            </a>
-        </div>
-        </div>
-    
-        <div class="gallery-item">
-        <div class="gallery-square">
-            <a href=/assets/images/Hytale_Asset_Editor_Trok_Tophat.webp>
-            <img src="/img/BZJtWyTNMK-300.webp" alt="Hytale asset editor displaying a Trok in a tophat" loading="lazy" decoding="async" width="1175" height="654" srcset="/img/BZJtWyTNMK-300.webp 300w, /img/BZJtWyTNMK-1175.webp 1175w" sizes="100vw">
-            
-                <p class="gallery-item-caption">Model editor showing a Trok Guard in a tophat</p>
-            
-            </a>
-        </div>
-        </div>
-    
-        <div class="gallery-item">
-        <div class="gallery-square">
-            <a href=/assets/images/Trork_alert_script.png>
-            <img src="/img/0qRUFnFmST-300.webp" alt="Trok alert script" loading="lazy" decoding="async" width="1920" height="1080" srcset="/img/0qRUFnFmST-300.webp 300w, /img/0qRUFnFmST-1920.webp 1920w" sizes="100vw">
-            
-                <p class="gallery-item-caption">Trok alert script</p>
-            
-            </a>
-        </div>
-        </div>
-    
-        <div class="gallery-item">
-        <div class="gallery-square">
-            <a href=/assets/images/Live_scripting_Trailer.png>
-            <img src="/img/VsS7tMSTOP-300.webp" alt="Live scripting" loading="lazy" decoding="async" width="1919" height="1079" srcset="/img/VsS7tMSTOP-300.webp 300w, /img/VsS7tMSTOP-1919.webp 1919w" sizes="100vw">
-            
-                <p class="gallery-item-caption">Live scripting</p>
-            
-            </a>
-        </div>
-        </div>
-    
-        <div class="gallery-item">
-        <div class="gallery-square">
-            <a href=/assets/images/Skybox_Customization_UI_Example.jpg>
-            <img src="/img/lL09Ma8uPE-300.webp" alt="Skybox customization ui" loading="lazy" decoding="async" width="910" height="503" srcset="/img/lL09Ma8uPE-300.webp 300w, /img/lL09Ma8uPE-910.webp 910w" sizes="100vw">
-            
-                <p class="gallery-item-caption">Skybox customization</p>
-            
-            </a>
-        </div>
-        </div>
-    
 </div>
 </main>
     <footer>
-<p>Footer</p>
+<a href="/credits/">Credits</a>
+<address><a href="mailto:lizbizcontact@gmail.com">lizbizcontact@gmail.com</a></address>
 </footer>
     <div>
 </body>

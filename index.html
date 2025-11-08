@@ -27,8 +27,24 @@
 </head>
 <body>
     <div class="page-container">
-    <nav>
+    <nav class="topnav" id="myTopnav">
+  <a href="/" class="active">Home</a>
+  <a href="/gallery">Media</a>
+  <a href="javascript:void(0);" class="icon" onclick="navMenu()">
+    <i class="fa fa-bars">☰</i>
+  </a>
 </nav>
+
+<script>
+function navMenu() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
     
 <main>
 <!-- Big top banner area -->
@@ -55,17 +71,6 @@
     
         <div class="item-grid-item">
         <div class="item-grid-square">
-            <a href=/topic/tweet-tracker/>
-            <img src="/img/e-rIn87jzx-300.webp" alt="Photo of a spreadsheet" loading="lazy" decoding="async" width="1044" height="582" srcset="/img/e-rIn87jzx-300.webp 300w, /img/e-rIn87jzx-1044.webp 1044w" sizes="100vw">
-            
-                <p class="item-grid-item-caption">Tweet Tracker</p>
-            
-            </a>
-        </div>
-        </div>
-    
-        <div class="item-grid-item">
-        <div class="item-grid-square">
             <a href=/topic/modding/>
             <img src="/img/BZJtWyTNMK-300.webp" alt="Modding" loading="lazy" decoding="async" width="1175" height="654" srcset="/img/BZJtWyTNMK-300.webp 300w, /img/BZJtWyTNMK-1175.webp 1175w" sizes="100vw">
             
@@ -79,7 +84,8 @@
 </div>
 </main>
     <footer>
-<p>Footer</p>
+<a href="/credits/">Credits</a>
+<address><a href="mailto:lizbizcontact@gmail.com">lizbizcontact@gmail.com</a></address>
 </footer>
     <div>
 </body>

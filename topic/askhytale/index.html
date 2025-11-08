@@ -27,12 +27,31 @@
 </head>
 <body>
     <div class="page-container">
-    <nav>
+    <nav class="topnav" id="myTopnav">
+  <a href="/" class="active">Home</a>
+  <a href="/gallery">Media</a>
+  <a href="javascript:void(0);" class="icon" onclick="navMenu()">
+    <i class="fa fa-bars">☰</i>
+  </a>
 </nav>
-    <p>This will be a page on askhytale</p>
+
+<script>
+function navMenu() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+    <main>
+<p>This will be a page on askhytale</p>
 <p>A list of AskHytale posts</p>
+</main>
     <footer>
-<p>Footer</p>
+<a href="/credits/">Credits</a>
+<address><a href="mailto:lizbizcontact@gmail.com">lizbizcontact@gmail.com</a></address>
 </footer>
     <div>
 </body>
