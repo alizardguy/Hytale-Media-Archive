@@ -36,13 +36,8 @@ body {
 .item-grid {
     text-align: center;
     padding-bottom: 45px;
-    padding-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(90px, 250px));
-    background-color: #121b2c;
-    border-radius: 10px;
     overflow: hidden;
     place-items: center;
     justify-items: center;
@@ -80,9 +75,7 @@ body {
 }
 
 @media screen and (max-width: 824px) {
-    .item-grid-item-caption {
-        display: none;
-    }
+
 
     .item-grid-item {
         padding: 5px;
@@ -90,17 +83,13 @@ body {
     }
 
     .item-grid {
-        padding-bottom: 20px;
-        padding-top: 20px;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-bottom: 30px;
         grid-template-columns: repeat(auto-fit, minmax(20px, 21vw));
         margin-left: 10px;
         margin-right: 10px;
     }
 
     .item-grid-square {
-        padding-bottom: 0px;
         max-height: 400px;
     }
 }
