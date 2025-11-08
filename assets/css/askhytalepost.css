@@ -1,0 +1,24 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.question {
+    padding-top: 2px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    max-width: 800px;
+
+    margin: 20px 5vw;
+
+    background-color: #181b2a;
+    font-size: larger;
+    color: white;
+}
+
+.question h1 {
+    text-align: center;
+}
