@@ -12,6 +12,7 @@ main {
     padding-right: 10px;
 
     max-width: 800px;
+    width: 50%;
 
     margin: 20px 5vw;
 
@@ -20,7 +21,10 @@ main {
     background-color: #181b2a;
     font-size: x-large;
     color: white;
+
+    text-align: center;
 }
+
 
 .question h1 {
     text-align: center;
@@ -47,4 +51,10 @@ main {
 
 .og-ask img {
     max-width: 100%;
+}
+
+@media screen and (max-width: 1140px) {
+    .question {
+        width: 80%;
+    }
 }
