@@ -6,17 +6,20 @@ permalink: /
 ---
 
 <main>
+<!-- Big top banner area -->
 {% include "partials/gadgets/simon_get_hytale.njk" %}
 
-<div class="gallery-main">
-<div class="gallery">
+<!-- Topics -->
+<div class="item-grid-main">
+<h1 class="item-grid-title">Topics</h1>
+<div class="item-grid">
     {% for item in hometiles %}
-        <div class="gallery-item">
-        <div class="gallery-square">
+        <div class="item-grid-item">
+        <div class="item-grid-square">
             <a href={{item.page}}>
             {% galleryImage item.image, item.alt, "(min-width: 600px) 300px, 100vw" %}
             {% if item.caption %}
-                <p class="gallery-item-caption">{{ item.caption }}</p>
+                <p class="item-grid-item-caption">{{ item.caption }}</p>
             {% endif %}
             </a>
         </div>
