@@ -5,5 +5,12 @@
         "alt": "Ask Hytale January 30th, 2024",
         "page": "/askhytale/2024-01-30",
         "caption": "2024/01/30"
-    }
+    },
+    {
+    "name": "2024-02-01",
+    "image": "./src/assets/images/AskHytale-2024-02-01.jpg",
+    "alt": "Ask Hytale February 1rst, 2024",
+    "page": "/askhytale/2024-02-01",
+    "caption": "2024/02/01"
+}
 ]
