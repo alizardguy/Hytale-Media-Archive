@@ -1,0 +1,15 @@
+.simon-main {
+    text-align: center;
+}
+
+.answer-text {
+    font-size: 5rem;
+}
+
+.simon-answer-text-no {
+    color: red;
+}
+
+.simon-answer-text-yes {
+    color: greenyellow;
+}
