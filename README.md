@@ -1,5 +1,6 @@
 [![Eleventy Build](https://github.com/alizardguy/Hytale-Media-Archive/actions/workflows/deploy.yml/badge.svg)](https://github.com/alizardguy/Hytale-Media-Archive/actions/workflows/deploy.yml)
 # Running locally
+After downloading the repo and loading needed NPM packages these are the commmands for local testing.
 - ``run: npx @11ty/eleventy --serve``
 
 # Important info
