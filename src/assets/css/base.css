@@ -11,6 +11,12 @@ body {
     color: var(--text-color);
 }
 
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 /* generic */
 .widget-area {
     background-color: #121b2c;

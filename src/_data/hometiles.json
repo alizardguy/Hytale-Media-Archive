@@ -6,6 +6,12 @@
         "caption": "AskHytale"
     },
     {
+        "image": "./src/assets/images/sweets.png",
+        "alt": "Photo of a spreadsheet",
+        "page": "/topic/tweet-tracker/",
+        "caption": "Tweet Tracker"
+    },
+    {
         "image": "./src/assets/images/Hytale_Asset_Editor_Trok_Tophat.webp",
         "alt": "Modding",
         "page": "/topic/modding/",
