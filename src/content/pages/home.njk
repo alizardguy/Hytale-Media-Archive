@@ -5,7 +5,10 @@ layout: base.njk
 permalink: /
 ---
 
-<main class="gallery-main">
+<main>
+{% include "partials/gadgets/simon_get_hytale.njk" %}
+
+<div class="gallery-main">
 <div class="gallery">
     {% for item in hometiles %}
         <div class="gallery-item">
@@ -19,5 +22,6 @@ permalink: /
         </div>
         </div>
     {% endfor %}
+</div>
 </div>
 </main>
