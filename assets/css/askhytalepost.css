@@ -1,12 +1,13 @@
 main {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
 }
 
 .question {
-    padding-top: 2px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     padding-left: 10px;
     padding-right: 10px;
 
@@ -15,10 +16,33 @@ main {
     margin: 20px 5vw;
 
     background-color: #181b2a;
-    font-size: larger;
+    font-size: x-large;
     color: white;
 }
 
 .question h1 {
     text-align: center;
+}
+
+.ask-body {
+    padding: 0px 2vw;
+}
+
+.ask-body-foot {
+    text-align: center;
+}
+
+.ask-person {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: gold;
+}
+
+.og-ask {
+    padding-top: 300px;
+    text-align: center;
+}
+
+.og-ask img {
+    max-width: 100%;
 }
