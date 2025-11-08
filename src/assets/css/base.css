@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #5180e6;
+    --primary-color: #385ba5;
     --primary-hover-color: #5180e6; 
     --text-color: #a6adbb; 
     --bg-color: #162137;
@@ -14,7 +14,11 @@ body {
 .page-container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+main {
+    flex-grow: 1;
 }
 
 /* generic */

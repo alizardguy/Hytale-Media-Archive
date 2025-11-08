@@ -3,12 +3,13 @@ title: Gallery
 description: "Hytale Media Gallery"
 layout: base.njk
 permalink: /gallery/modding/
+draft: true
 ---
 
 <main class="gallery-main">
 <h1>Modding Media Gallery</h1>
 <div class="gallery">
-    {% for item in modgallery %}
+    {% for item in modmediagallery %}
         <div class="gallery-item">
         <div class="gallery-square">
             <a href={{item.page}}>
