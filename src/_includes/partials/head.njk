@@ -1,7 +1,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% if customTitle %}
+    <title>{{title}}</title>
+    {% else %}
     <title>{{title}} — Hytale Media Archive</title>
+    {% endif %}
 
     {% if description %}
     <meta name="description" content="{{description}}">
@@ -10,7 +15,7 @@
     <link rel="stylesheet" href="/assets/css/navbar.css">
     <link rel="stylesheet" href="/assets/css/base.css">
 
-    {% if pagestyle %}
-    <link rel="stylesheet" href={{pagestyle}}>
+    {% if pageStyle %}
+    <link rel="stylesheet" href={{pageStyle}}>
     {% endif %}
 </head>
