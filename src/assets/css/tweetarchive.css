@@ -43,6 +43,10 @@ main {
   gap: 4px;
   cursor: pointer;
   position: relative;
+  
+  border: none;
+  background: none;
+  color: inherit;
 }
 
 .menu-item:hover {
@@ -68,6 +72,7 @@ main {
     min-width: 120px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.4);
     z-index: 10;
+    color: white;
 }
 
 .dropdown a {
@@ -83,7 +88,7 @@ main {
 }
 
 .menu-item.active .dropdown {
-    display: block;
+    display: flex;
 }
 
 .menu-item.active .arrow {
