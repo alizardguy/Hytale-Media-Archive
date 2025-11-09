@@ -101,3 +101,83 @@ main {
     background-color: #0b1425;
     width: 100%;
 }
+
+.tweet-grid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* tweet */
+.tweet-card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #e1e8ed;
+    padding: 15px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+}
+
+.tweet-avatar img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tweet-content-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.tweet-header {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.user-name {
+    font-weight: bold;
+    color: #14171a;
+    margin-right: 5px;
+}
+
+.user-handle, .tweet-time {
+    color: #657786;
+    margin-right: 5px;
+}
+
+.tweet-text {
+    font-size: 16px;
+    line-height: 20px;
+    color: #14171a;
+    margin-bottom: 10px;
+}
+
+.tweet-actions {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    font-size: 14px;
+    color: #657786;
+}
+
+.action-item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.action-item i {
+    margin-right: 5px;
+}
+
+.action-item:hover {
+    color: #1da1f2; /* Twitter blue color */
+}
