@@ -43,7 +43,7 @@ pageStyle: "/assets/css/tweetarchive.css"
     <div class="tweet-grid">
 
     {% for item in prerevivetweets | reverse %}
-    <a href="{{item.source}}" class="tweet-card">
+    <a href="{{item.source}}" class="tweet-card" id="{{item.tag}}">
     <div class="tweet-avatar">
     <img src="{{item.avatar}}" alt="User Avatar">
     </div>
