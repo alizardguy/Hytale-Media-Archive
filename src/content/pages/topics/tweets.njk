@@ -16,23 +16,23 @@ pageStyle: "/assets/css/tweetarchive.css"
             <!-- Author menu item -->
             <button class="menu-item">
             Author <span class="arrow">▼</span>
-            <form class="dropdown" id="author-sort">
+            <div class="dropdown">
                 <label id="childCheckbox">
                     <input type="checkbox" name="author-simon" checked>
                     <span>Simon</span>
                 <label>
-            </form>
+            </div>
             </button>
             <div class="divider"></div>
             <!-- Tag menu item -->
             <button class="menu-item">
             Tag <span class="arrow">▼</span>
-            <form class="dropdown" id="tag-sort">
+            <div class="dropdown">
                 <label id="childCheckbox">
                     <input type="checkbox" name="tag-acquisition" checked>
                     <span>Acquisition</span>
                 <label>
-            </form>
+            </div>
             </button>
             <div class="divider"></div>
         </div>
@@ -40,7 +40,27 @@ pageStyle: "/assets/css/tweetarchive.css"
 </div>
 <!-- Main archive -->
 <div class="tweet-archive">
-    hi
+    <div class="tweet-grid">
+
+    {% for item in prerevivetweets | reverse %}
+    <a href="{{item.source}}" class="tweet-card">
+    <div class="tweet-avatar">
+    <img src="{{item.avatar}}" alt="User Avatar">
+    </div>
+    <div class="tweet-content-container">
+    <div class="tweet-header">
+        <span class="user-name">{{item.name}}</span>
+        <span class="tweet-time">{{item.date}}</span>
+    </div>
+    <div class="tweet-text">
+        {{item.contentPre}} (read more)
+    </div>
+    </div>
+    </a>
+    {% endfor %}
+
+
+    </div>
 </div>
 </main>
 <script>
