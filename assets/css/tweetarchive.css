@@ -1,0 +1,98 @@
+main {
+    margin: 0;
+    padding: 0;
+}
+
+/* sorting header */
+.tweet-archive-header {
+    background-color: #001935;
+    width: 100%;
+    padding: 6px 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.title {
+  font-weight: 600;
+  font-size: larger;
+}
+
+.divider {
+  width: 1px;
+  height: 16px;
+  background-color: white;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  gap: 8px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.menu-item:hover {
+  color: #fff;
+}
+
+.arrow {
+  font-size: 10px;
+}
+
+.divider {
+  width: 1px;
+  height: 16px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 26px;
+    left: 0;
+    background-color: #0b1d32;
+    min-width: 120px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    z-index: 10;
+}
+
+.dropdown a {
+    display: block;
+    padding: 8px 12px;
+    color: #d6e0ef;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.dropdown a:hover {
+    background-color: #15304b;
+}
+
+.menu-item.active .dropdown {
+    display: block;
+}
+
+.menu-item.active .arrow {
+    transform: rotate(180deg);
+}
+
+
+/* main grid */
+.tweet-archive {
+    background-color: #0b1425;
+    width: 100%;
+}
