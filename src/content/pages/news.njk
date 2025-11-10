@@ -8,7 +8,7 @@ pageStyle: "/assets/css/newsfeed.css"
 
 <main>
     <div class="news-feed">
-        {% for item in collections.newsposts %}
+        {% for item in collections.newsposts | reverse %}
             <a href="{{item.url}}">
             <article class="news-post">
                 <h2>{{item.data.title}}</h2>
