@@ -47,3 +47,7 @@ a {
 .readmore {
     color: rgb(24, 24, 150);
 }
+
+.news-post-date {
+    color: gray;
+}
