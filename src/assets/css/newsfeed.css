@@ -7,6 +7,7 @@
     align-content: center;
     overflow-x: hidden;
     gap: 1em;
+    padding-top: 35px;
 }
 
 .news-post {
@@ -16,10 +17,27 @@
     border-radius: 10px;
     width: 400px;
     height: 200px;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* to do: view size selector scaling of width */
+
+.news-feed a:hover .news-post {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.news-post h2 {
+    font-size: 1.5rem;
+    line-height: 1.2;
 }
 
 .news-post p {
     text-decoration: none;
+    line-height: 1.5;
 }
 
 a {
