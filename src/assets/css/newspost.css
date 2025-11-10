@@ -22,12 +22,13 @@ main {
     width: 624px;
     color: #e0def4;
     font-size: larger;
+    word-break: break-word;
 }
 
 a:link {
-    color: rgb(73, 73, 73);
+    color: rgb(143, 153, 144); 
 }
 
 a:visited {
-    color: rgb(73, 73, 73); 
+    color: rgb(143, 153, 144); 
 }
