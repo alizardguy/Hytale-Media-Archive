@@ -4,7 +4,9 @@ pageStyle: "/assets/css/newspost.css"
 ---
 
 <main>
-    <article>
+    <article class="post">
+        <h1 class="post-title">{{title}}</h1>
+        <hr>
         {{ content | safe }}
     </article>
 </main>
