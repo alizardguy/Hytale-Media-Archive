@@ -35,9 +35,6 @@ export default function (eleventyConfig)
         return Image.generateHTML(metadata, imageAttributes);
     });
 
-    eleventyConfig.addCollection("newsposts", function(collectionApi) {
-        return collectionApi.getFilteredByGlob("src/content/pages/newsposts/*.md");
-    })
 
     eleventyConfig.addPassthroughCopy("src/assets/images");
     eleventyConfig.addPassthroughCopy("./CNAME");

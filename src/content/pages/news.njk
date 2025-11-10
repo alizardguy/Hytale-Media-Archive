@@ -8,9 +8,9 @@ permalink: /news/
 <main>
     <div class="news-feed">
         <ul>
-        {% for item in collection.newsposts %}
+        {% for item in collections.newsposts %}
             <li>
-                <p>hi</p>
+                <p>{{item.url}}</p>
             </li>
         {% endfor %}
         </ul>
