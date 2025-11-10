@@ -1,4 +1,5 @@
 import Image from "@11ty/eleventy-img";
+import { DateTime } from "luxon";
 
 export const config = {
     dir: {
@@ -35,6 +36,10 @@ export default function (eleventyConfig)
         return Image.generateHTML(metadata, imageAttributes);
     });
 
+
+    eleventyConfig.addFilter("niceDate", (dateObj) => {
+        return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
+    });
 
     eleventyConfig.addPassthroughCopy("src/assets/images");
     eleventyConfig.addPassthroughCopy("./CNAME");

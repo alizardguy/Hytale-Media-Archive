@@ -6,6 +6,7 @@ pageStyle: "/assets/css/newspost.css"
 <main>
     <article class="post">
         <h1 class="post-title">{{title}}</h1>
+        <p class="post-info">By: {{author}} | {{page.date | niceDate}}</p>
         <hr>
         {{ content | safe }}
     </article>
