@@ -1,0 +1,27 @@
+.news-feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding: 10px;
+    place-items: center;
+    justify-content: center;
+    align-content: center;
+    overflow-x: hidden;
+    gap: 1em;
+}
+
+.news-post {
+    color: black;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+}
+
+.news-post p {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}

@@ -3,16 +3,19 @@ title: News
 description: "A feed of new things Hytale"
 layout: base.njk
 permalink: /news/
+pageStyle: "/assets/css/newsfeed.css"
 ---
 
 <main>
     <div class="news-feed">
-        <ul>
         {% for item in collections.newsposts %}
-            <li>
-                <p>{{item.url}}</p>
-            </li>
+            <a href="{{item.url}}">
+            <article class="news-post">
+                <h2>{{item.data.title}}</h2>
+                <p>{{item.data.breif}}</h2>
+                <p>{{item.date}}</h2>
+            </article>
+            </a>
         {% endfor %}
-        </ul>
     </div>
 </main>
