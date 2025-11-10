@@ -3,14 +3,12 @@ title: News
 description: "A feed of new things Hytale"
 layout: base.njk
 permalink: /news/
-eleventyImport:
-  collections: ["newspost"]
 ---
 
 <main>
     <div class="news-feed">
         <ul>
-        {% for item in collection.newspost %}
+        {% for item in collection.newsposts %}
             <li>
                 <p>hi</p>
             </li>
