@@ -12,7 +12,7 @@ pageStyle: "/assets/css/newsfeed.css"
             <a href="{{item.url}}">
             <article class="news-post">
                 <h2>{{item.data.title}}</h2>
-                <p>{{item.data.breif}}</p>
+                <p>{{item.data.breif}} <span class="readmore">(read more)</span></p>
             </article>
             </a>
         {% endfor %}
