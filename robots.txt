@@ -6,5 +6,8 @@ Allow: /
 User-agent: GPTBot
 Disallow: /community/
 
+user-agent: GPTBot
+Disallow: /community/
+
 User-agent: Googlebot
 Disallow: /community/
