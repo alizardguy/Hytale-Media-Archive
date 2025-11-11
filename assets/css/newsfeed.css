@@ -25,7 +25,13 @@
     flex-direction: column;
 }
 
-/* to do: view size selector scaling of width */
+@media screen and (min-width: 1600px) {
+    .news-feed {
+        padding: 0 10%;
+        padding-top: 35px;
+    }    
+
+}
 
 .news-feed a:hover .news-post {
     transform: translateY(-3px);
