@@ -1,7 +1,6 @@
 footer {
     background-color: #121b2c;
-    width: 100%;
-    padding: 5px 10px;
+    max-width: 100%;
     display: flex;
 }
 
