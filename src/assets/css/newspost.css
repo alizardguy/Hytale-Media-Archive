@@ -20,6 +20,7 @@ main {
     margin: 42px 5%;
     padding: 5px 20px;
     max-width: 624px;
+    min-height: 400px;
     color: #e0def4;
     font-size: larger;
     word-break: break-word;
