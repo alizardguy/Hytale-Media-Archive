@@ -6,7 +6,7 @@ Allow: /
 User-agent: GPTBot
 Disallow: /community/
 
-user-agent: GPTBot
+user-agent: ChatGPT-User
 Disallow: /community/
 
 User-agent: Googlebot
