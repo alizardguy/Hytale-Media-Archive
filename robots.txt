@@ -1,4 +1,10 @@
 Sitemap: https://hy.alizardguy.com/sitemap.xml
 
+User-agent: *
+Allow: /
+
 User-agent: GPTBot
+Disallow: /community/
+
+User-agent: Googlebot
 Disallow: /community/
