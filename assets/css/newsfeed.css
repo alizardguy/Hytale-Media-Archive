@@ -16,11 +16,13 @@
     padding: 5px 20px;
     border-radius: 10px;
     width: 400px;
-    height: 200px;
+    height: 220px;
     overflow-wrap: break-word;
     box-sizing: border-box;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 /* to do: view size selector scaling of width */
@@ -33,11 +35,13 @@
 .news-post h2 {
     font-size: 1.5rem;
     line-height: 1.2;
+    min-height: 25px;
 }
 
 .news-post p {
     text-decoration: none;
     line-height: 1.5;
+    min-height: 72px;
 }
 
 a {
@@ -50,4 +54,5 @@ a {
 
 .news-post-date {
     color: gray;
+    margin-top: auto;
 }
