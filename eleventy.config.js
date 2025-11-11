@@ -44,4 +44,5 @@ export default function (eleventyConfig)
     eleventyConfig.addPassthroughCopy("src/assets/images");
     eleventyConfig.addPassthroughCopy("./CNAME");
     eleventyConfig.addPassthroughCopy("src/favicon.png");
+    eleventyConfig.addPassthroughCopy("src/robots.txt");
 }
