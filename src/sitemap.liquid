@@ -6,7 +6,7 @@ permalink: /sitemap.xml
 {%- for item in collections.all %}
 {%- unless item.data.ignore == true %}
   <url>
-    <loc>https://hy.alizardguy.com/{{ item.url }}</loc>
+    <loc>https://hy.alizardguy.com{{ item.url }}</loc>
     <lastmod>{{ item.date | date: '%Y-%m-%d' }}</lastmod>
     <changefreq>{{ item.data.changefreq }}</changefreq>
     <priority>{{ item.data.priority }}</priority>
