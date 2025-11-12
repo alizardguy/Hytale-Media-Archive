@@ -76,7 +76,13 @@ main {
     height: 100%;
     display: block;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.item-grid-square img:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
 }
 
 .item-grid-square a {
