@@ -7,6 +7,8 @@ pageStyle: "/assets/css/newsfeed.css"
 ---
 
 <main>
+    <div class="news-outer">
+    <h1 class="news-feed-title">News</h1>
     <div class="news-feed">
         {% for item in collections.newsposts | sort(true, true, 'date') %}
             <a href="{{item.url}}">
@@ -17,5 +19,6 @@ pageStyle: "/assets/css/newsfeed.css"
             </article>
             </a>
         {% endfor %}
+    </div>
     </div>
 </main>

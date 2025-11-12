@@ -4,10 +4,43 @@
     padding: 10px;
     place-items: center;
     justify-content: center;
-    align-content: center;
+    align-content: start;
     overflow-x: hidden;
     gap: 1em;
     padding-top: 35px;
+    padding-bottom: 35px;
+
+    height: 100vh;
+
+}
+
+.news-feed-title {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.news-outer {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    margin-right: auto;
+    margin-left: auto;
+    
+    grid-column: 1 / -1;
+
+    justify-self: center;
+    
+
+    max-width: 1600px;
+
+    overflow-y: visible;
+    height: auto;
+
+    background-color: #121b2c;
+
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+
 }
 
 .news-post {
@@ -60,5 +93,11 @@ a {
 .news-post-date {
     color: gray;
     margin-top: auto;
+}
+
+@media screen and (max-width: 450px) {
+    .news-post {
+        width: 360px;
+    }
 }
 
