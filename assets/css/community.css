@@ -1,0 +1,18 @@
+.community-area {
+    margin: 20px 5%;
+    text-align: center;
+}
+
+.community-area ul {
+    list-style-type: none;
+}
+
+.community-area a {
+    color: rgb(133, 235, 150);
+    text-decoration: none;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
