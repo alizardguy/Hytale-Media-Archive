@@ -35,6 +35,8 @@ main {
     padding-bottom: 1px;
     margin-top: 25px;
     margin-bottom: 25px;
+
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 @media screen and (max-width: 824px) {
@@ -78,6 +80,7 @@ main {
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .item-grid-square img:hover {
