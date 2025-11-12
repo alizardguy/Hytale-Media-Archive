@@ -29,8 +29,7 @@
     .news-feed {
         padding: 0 10%;
         padding-top: 35px;
-    }    
-
+    }
 }
 
 .news-feed a:hover .news-post {
@@ -62,3 +61,4 @@ a {
     color: gray;
     margin-top: auto;
 }
+
