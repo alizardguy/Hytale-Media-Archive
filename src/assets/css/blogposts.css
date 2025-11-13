@@ -10,6 +10,8 @@
 
 .blog-feed-item img {
     border-radius: 10px;
+    width: 100%;
+    max-width: 900px;
 }
 
 .blog-feed-item p {
