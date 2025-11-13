@@ -4,5 +4,11 @@
         "alt": "AskHytale",
         "page": "/askhytale",
         "caption": "#AskHytale"
+    },
+    {
+        "image": "./src/assets/images/action-shot-1.png",
+        "alt": "Blog posts",
+        "page": "/blogposts",
+        "caption": "Blog Post Archive"
     }
 ]
