@@ -20,6 +20,8 @@ We're not just playing catch-up, either. We're starting to see the benefit of ou
 
 Orbis' undead have had a major revamp over the last year, both from a narrative perspective (no spoilers!) and in terms of their look. In the screenshot below, an undead miner awaits the player in a cave in one of Orbis' temperate regions. What power has roused this lifeless being from their slumber? Who were they, and what could have happened to rip the spark of life from them?
 
+![Undead miner cave](/assets/images/hytaleblogposts/winter-2024-development-update/undead_miner_cave.jpg)
+
 Well, we're not going to tell you. But you'll figure it out yourselves, no doubt.
 
 Our creative team continues to work with our technical teams to bring the new engine up to - and ultimately beyond - the standard we set previously. You can see some of that progress below.
