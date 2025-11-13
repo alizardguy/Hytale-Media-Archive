@@ -6,7 +6,12 @@ permalink: /blogposts/
 pageStyle: "/assets/css/blogposts.css"
 ---
 <main>
-    <div>
-        <p>Wip...</p>
+    <div class="widget-area blog-feed">
+        {% for item in collections.hytaleblogposts | reverse %}
+            <a href="{{item.url}}" class="blog-feed-item">
+                <img src="{{item.data.cover}}">
+                <p>{{item.data.title}}</p>
+            </a>
+        {% endfor %}
     </div>
 </main>
