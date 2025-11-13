@@ -15,6 +15,8 @@ We're not just playing catch-up, either. We're starting to see the benefit of ou
 
 ‘Blonks’ has been built from a mixture of placeholder and spoiler content, so we’re going to avoid showing too much from those playtests right now. However, we do have a bunch to share from the new engine - including, yes, a closer look at that Orbis faction we teased during Halloween...
 
+![Undead miner](/assets/images/hytaleblogposts/winter-2024-development-update/undead_miner_concept_art.jpg)
+
 Orbis' undead have had a major revamp over the last year, both from a narrative perspective (no spoilers!) and in terms of their look. In the screenshot below, an undead miner awaits the player in a cave in one of Orbis' temperate regions. What power has roused this lifeless being from their slumber? Who were they, and what could have happened to rip the spark of life from them?
 
 Well, we're not going to tell you. But you'll figure it out yourselves, no doubt.
