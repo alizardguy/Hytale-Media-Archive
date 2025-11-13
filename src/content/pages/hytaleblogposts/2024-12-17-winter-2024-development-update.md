@@ -2,6 +2,7 @@
 title: Winter 2024 Development Update
 cover: \assets\images\hytaleblogposts\banners\winter-2024-development-update-banner.jpg
 date: 2024-12-17
+author: Hytale Team
 layout: hytaleblogpost.njk
 ---
 Hello! In this end of year development update we'll be discussing the progress we've made in 2024 and looking ahead to our plans for 2025. We'll catch up on this year's milestones, show the visual progress of the new engine, and take a look at the updated state of our creative features (including a little bit of new music!) Let's get into it.

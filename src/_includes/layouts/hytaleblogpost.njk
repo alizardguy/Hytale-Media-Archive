@@ -7,8 +7,9 @@ pageStyle: "/assets/css/hytaleblogpost.css"
     <div class="post-head">
         <h1 class="post-title">{{title}}</h1>
         <div class="post-meta">
-
+            <p>Posted by {{author}}</p><p class="post-date">{{date | niceDate}}</p>
         </div>
+        <img class="post-cover" src="{{cover}}">
     <div>
     {{ content | safe }}
     </div>
