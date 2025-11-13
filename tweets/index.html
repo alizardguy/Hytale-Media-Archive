@@ -27,8 +27,6 @@
     <link rel="stylesheet" href="/assets/css/base.css">
 
     
-    <link rel="stylesheet" href=/assets/css/tweetarchive.css>
-    
 
     <link rel="icon" type="image/x-icon" href="/favicon.png">
 </head>
@@ -56,103 +54,9 @@ function navMenu() {
 }
 </script>
     <main>
-<!-- sorting header -->
-<div class="tweet-archive-header">
-    <div class="left-section">
-        <span class="title">Tweets</span>
-        <div class="divider"></div>
-
-        <div class="menu">
-            <!-- Author menu item -->
-            <button class="menu-item">
-            Author <span class="arrow">▼</span>
-            <div class="dropdown">
-                <label id="childCheckbox">
-                    <input type="checkbox" name="author-simon" checked>
-                    <span>Simon</span>
-                <label>
-            </div>
-            </button>
-            <div class="divider"></div>
-            <!-- Tag menu item -->
-            <button class="menu-item">
-            Tag <span class="arrow">▼</span>
-            <div class="dropdown">
-                <label id="childCheckbox">
-                    <input type="checkbox" name="tag-acquisition" checked>
-                    <span>Acquisition</span>
-                <label>
-            </div>
-            </button>
-            <div class="divider"></div>
-        </div>
-    </div>
-</div>
-<!-- Main archive -->
-<div class="tweet-archive">
-    <div class="tweet-grid">
-
-    
-    <a href="https://x.com/Simon_Hypixel/status/1937855122408665208" class="tweet-card" id="">
-    <div class="tweet-avatar">
-    <img src="/assets/images/pfps/simon.jpg" alt="User Avatar">
-    </div>
-    <div class="tweet-content-container">
-    <div class="tweet-header">
-        <span class="user-name">Simon</span>
-        <span class="tweet-time">Jun 25, 2025 · 12:47 PM</span>
-    </div>
-    <div class="tweet-text">
-        Yeah not denying that. I&#39;m sure he&#39;s aware... (read more)
-    </div>
-    </div>
-    </a>
-    
-    <a href="https://x.com/Simon_Hypixel/status/1937845322039873916" class="tweet-card" id="acquisition">
-    <div class="tweet-avatar">
-    <img src="/assets/images/pfps/simon.jpg" alt="User Avatar">
-    </div>
-    <div class="tweet-content-container">
-    <div class="tweet-header">
-        <span class="user-name">Simon</span>
-        <span class="tweet-time">Jun 25, 2025 05:08 PM</span>
-    </div>
-    <div class="tweet-text">
-        During my time working on Hytale in 2016-2019, it was maybe to the absolute maximum 2 years away from a PC release with the legacy engine and vision. I still have videos, screenshots and old client builds to attest to that. All developers from that time that I&#39;ve talked to say the same... (read more)
-    </div>
-    </div>
-    </a>
-    
-
-
-    </div>
-</div>
+<a href="https://hytaletracker.github.io/">Tweets</a>
 </main>
-<script>
-    // Get all menu items
-    const menuItems = document.querySelectorAll('.menu-item');
 
-    menuItems.forEach(item => {
-      item.addEventListener('click', (e) => {
-        e.stopPropagation(); // Prevent click from bubbling up
-        // Close all other dropdowns
-        menuItems.forEach(i => i !== item && i.classList.remove('active'));
-        // Toggle current dropdown
-        item.classList.toggle('active');
-      });
-    });
-
-    // Close dropdowns when clicking outside
-    document.addEventListener('click', () => {
-      menuItems.forEach(item => item.classList.remove('active'));
-    });
-
-    const checkbox = document.getElementById('childCheckbox');
-    checkbox.addEventListener('click', (event) => {
-    event.stopPropagation(); // Prevent click from reaching parent
-    });
-
-  </script>
     <footer>
 <a href="/credits/">Credits</a>
 <address><a href="mailto:lizbizcontact@gmail.com">lizbizcontact@gmail.com</a></address>
