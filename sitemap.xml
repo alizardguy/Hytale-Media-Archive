@@ -103,6 +103,18 @@
     <priority></priority>
   </url>
   <url>
+    <loc>https://hy.alizardguy.com/404.html</loc>
+    <lastmod>2025-11-13</lastmod>
+    <changefreq></changefreq>
+    <priority></priority>
+  </url>
+  <url>
+    <loc>https://hy.alizardguy.com/404/</loc>
+    <lastmod>2025-11-13</lastmod>
+    <changefreq></changefreq>
+    <priority></priority>
+  </url>
+  <url>
     <loc>https://hy.alizardguy.com/credits/</loc>
     <lastmod>2025-11-13</lastmod>
     <changefreq></changefreq>
