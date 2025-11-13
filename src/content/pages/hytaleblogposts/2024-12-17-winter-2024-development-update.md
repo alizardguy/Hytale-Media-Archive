@@ -26,13 +26,19 @@ Well, we're not going to tell you. But you'll figure it out yourselves, no doubt
 
 Our creative team continues to work with our technical teams to bring the new engine up to - and ultimately beyond - the standard we set previously. You can see some of that progress below.
 
+![Example of lighting](/assets/images/hytaleblogposts/winter-2024-development-update/light_gym.png)
+
 As you can see, our dynamic lighting capabilities are much improved in the new engine, allowing for softer transitions and more striking colors during the day. Expect to see more progress like this as we work through next year's rendering milestones.
 
 Here's an example of what the new engine now allows our artists and builders to achieve.
 
+-# Video would go here
+
 This clip demonstrates the progress we’ve made when it comes to recreating Hytale’s visual identity in the new engine. There are still a number of placeholder elements on display here, including player animations and movement (you’ll notice a little bit of awkwardness while going up the stairs.) However, it’s hugely motivating to see these cozy elements of the core Hytale fantasy coming into focus on our new platform.
 
 The team has also made big strides in terms of our build tools and creator functionality. Below, you can watch a builder use an early version of our prefab library tool to create a rustic scene (along with more of that promised new music!) There are many placeholder elements in this clip too, including work-in-progress UI elements, biomes, and rendering.
+
+-# video would go here
 
 Functionality like this is a big part of how we're planning to empower creators, whether they're simply happy to tinker or aspire to make content creation - or game development - their career.
 
@@ -45,6 +51,8 @@ Speaking of 2025 - here’s Executive Producer and Game Director John Hendricks 
 >I have spoken before about how we have been using our time waiting on the new engine for much-needed tools development, creative explorations, gameplay and UX designs and prototypes, whatever we can do to get ready for what comes next, but in my opinion the most critical things we’ve been working on have been our team and our processes. I am proud to say that not only is our engine more capable than before, so is our team.
 
 >And we are going to need that capability in 2025! The job ahead is to bring the gameplay and content over from our legacy engine, a process which is often referred to as ‘porting’, and get into playtesting as soon as possible. The first half of the year will see competitive and creative play take center stage to prepare for playtests in the second half of the year. At that time we will be focused on adventure and social gameplay. We will also continue to move fundamental systems and features like tools, worldgen, NPC behaviors, rendering, and personalization forward so that they do not fall behind.
+
+![Example of lighting](/assets/images/hytaleblogposts/winter-2024-development-update/new_engine_progress.jpg)
 
 >We are incredibly hyped to bring an external creator team in to give us feedback on our tools and engine. A wide variety of creators provide us with valuable feedback on a regular basis, but this is different, this is going to be a gameplay team creating a new minigame for Hytale! Why only one team? So that we can give them support, respond to feedback, and document the process for the teams to follow. With over five experiences in various stages of playtesting, it is going to be another intense year for Hypixel Studios.
 
