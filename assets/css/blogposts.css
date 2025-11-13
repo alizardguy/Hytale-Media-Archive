@@ -1,0 +1,18 @@
+.blog-feed {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-feed-item {
+    padding: 10px;
+    text-align: center;
+}
+
+.blog-feed-item img {
+    border-radius: 10px;
+}
+
+.blog-feed-item p {
+    color: white;
+    text-decoration: none;
+}
