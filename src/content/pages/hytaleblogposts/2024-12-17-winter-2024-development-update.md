@@ -32,13 +32,13 @@ As you can see, our dynamic lighting capabilities are much improved in the new e
 
 Here's an example of what the new engine now allows our artists and builders to achieve.
 
--# Video would go here
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V3IxjEaz1M0?si=dcDmyy2iOEOhMpyV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 This clip demonstrates the progress we’ve made when it comes to recreating Hytale’s visual identity in the new engine. There are still a number of placeholder elements on display here, including player animations and movement (you’ll notice a little bit of awkwardness while going up the stairs.) However, it’s hugely motivating to see these cozy elements of the core Hytale fantasy coming into focus on our new platform.
 
 The team has also made big strides in terms of our build tools and creator functionality. Below, you can watch a builder use an early version of our prefab library tool to create a rustic scene (along with more of that promised new music!) There are many placeholder elements in this clip too, including work-in-progress UI elements, biomes, and rendering.
 
--# video would go here
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B0ISyNTTS3Q?si=WfN-I2P1NEarEcjm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Functionality like this is a big part of how we're planning to empower creators, whether they're simply happy to tinker or aspire to make content creation - or game development - their career.
 
